@@ -1,0 +1,35 @@
+{
+  "environment": {
+    "env_root": "D:\\anaconda3\\envs\\underwater",
+    "frequency_Hz": 300.0,
+    "water_depth_m": 100.0,
+    "source_depth_m": 50.0,
+    "bottom_soundspeed_m_s": 1700.0,
+    "bottom_density_kg_m3": 1800.0,
+    "bottom_absorption_dB_per_lambda": 0.5,
+    "range_m": [
+      200.0,
+      10000.0
+    ]
+  },
+  "TL_coherent_1km_dB": 55.31,
+  "TL_incoherent_1km_dB": 50.62,
+  "TL_coherent_5km_dB": 53.53,
+  "TL_incoherent_5km_dB": 59.6,
+  "TL_coherent_10km_dB": 67.39,
+  "TL_incoherent_10km_dB": 64.05,
+  "n_eigenrays": 50,
+  "n_arrivals_5km": 96,
+  "delay_spread_ms": 487.08,
+  "tl_map_depth_range_m": [
+    2.0,
+    98.0
+  ],
+  "dTL_thermocline_shallow_2km_dB": 0.84,
+  "dTL_thermocline_deep_2km_dB": -0.98,
+  "dTL_thermocline_shallow_5km_dB": 0.87,
+  "dTL_thermocline_deep_5km_dB": 2.37,
+  "dTL_thermocline_shallow_10km_dB": 2.72,
+  "dTL_thermocline_deep_10km_dB": 1.82,
+  "runtime_s": 4.6
+}

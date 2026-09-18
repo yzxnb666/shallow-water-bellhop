@@ -1,0 +1,11 @@
+# 统一换行符，避免 Windows / Linux 之间来回转换造成 diff 噪声
+* text=auto
+
+# 批处理文件必须是 CRLF，否则 Windows 命令行无法执行
+*.bat text eol=crlf
+
+# 二进制文件不做任何转换
+*.png binary
+*.jpg binary
+*.docx binary
+*.csv text eol=lf

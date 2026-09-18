@@ -1,0 +1,7 @@
+aubellhop==0.2.1
+arlpy==1.9.3
+numpy>=1.26
+scipy>=1.13
+pandas>=2.0
+matplotlib>=3.8
+jupyterlab>=4.0
